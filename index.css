@@ -1,0 +1,367 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+header {
+    background-color: #e8e3df;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn {
+    background: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+.logo span {
+    color: orange;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    font-size: 14px;
+    color: #333;
+}
+.nav-links li {
+    display: inline;
+     cursor: pointer;
+}
+.hire-btn {
+    background-color: orange;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: auto;
+    padding: 60px;
+    
+
+    
+
+    background-color: #fef6f2;
+}
+.head-text {
+    max-width: 500px;
+}
+.head-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+.head-para {
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
+    margin-bottom: 20px;
+}
+.developer-container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px; 
+    height: 500px; 
+    
+}
+
+
+
+.developer-image {
+    width: 50px; 
+    height:400px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn {
+    background: #a45301;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-secondary {
+    padding: 10px 15px;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    width: 300px;
+    z-index: 0;
+    left: -50px;
+    top: -20px;
+}
+
+.foreground {
+    position: relative;
+    width: 250px;
+    z-index: 1;
+}
+.about {
+    background-color: #fef6f2; 
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto; 
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.details strong {
+    font-weight: bold;
+}
+
+.skills, .resume {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skills h2, .resume h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skills p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #555;
+    font-size: 16px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-box img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.skill-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-box p {
+    font-size: 14px;
+    color: #666;
+}
+  
+.resume-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 900px;
+    margin: 0 auto; 
+}
+.education, .experience {
+    width: 45%;
+}
+.resume-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.resume-box h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.resume-box p {
+    font-size: 14px;
+    color: #555;
+}
+.download {
+    margin-top: 30px;
+}
+.download-btn {
+    display: inline-block;
+    background: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-section {
+    background: #fdf3eb;
+    padding: 50px 20px;
+}
+.contact-section {
+    background: #fdf3eb; /* Light peach background */
+    padding: 50px 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.left-contact-info {
+    width: 45%;
+}
+
+.left-contact-info h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.left-contact-info p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 20px;
+}
+
+
+.right-contact-form {
+    width: 45%;
+}
+
+.right-contact-form h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.right-contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-contact-form input,
+.right-contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.right-contact-form .submit-btn {
+    background: #ff4500;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right-contact-form .submit-btn:hover {
+    background: #e63e00;
+}
